@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posicionamentos (static e relative / absolute e fixed</title>
+    <style>
+        body {
+            background-color: turquoise;
+        }
+        #container {
+            background-color: #fff;
+            width: 800px;
+            margin: 10px auto;
+            padding: 10px;
+            position: relative;
+        }
+
+        h1 {
+            
+        }
+
+        p {
+            width: 300px;
+        }
+
+        .fixed {
+            border: 1px solid red;
+            background-color: #f2f2f2;
+            position: fixed;
+            top: 0px;
+            left: 0px;
+        }
+
+        .absolute {
+            border: 1px solid red;
+            background-color: #f2f2f2;
+            position: absolute;
+            top: 80px;
+            right: 80px;
+            
+        }
+
+        .relative {
+            border: 1px solid red;
+            position: relative;
+            /* top, right, bottom e left */
+            left: 35px;
+        }
+    </style>
+</head>
+<body>
+    
+    <div id="container">
+        <h1>Posicionamentos</h1>
+
+        <p class="fixed">P1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Error blanditiis sint saepe iste sit praesentium perferendis voluptatum eius similique amet quisquam consequuntur adipisci, earum distinctio dolorem impedit id harum ab.</p>
+
+        <p>P2 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum, sed cupiditate eveniet magni delectus vel nam maiores, iure et id maxime itaque blanditiis soluta labore qui consequatur ullam voluptas debitis Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo illo iste vero cum esse ut ratione itaque consequatur impedit, autem sapiente rerum, amet velit cumque voluptatem laborum deleniti quasi qui.</p>
+
+        <p>P3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, laboriosam voluptatum expedita inventore debitis officia incidunt accusantium aperiam, eius obcaecati voluptates delectus enim sit illum repudiandae maxime nesciunt, repellat ipsa!</p>
+    </div>
+</body>
+</html>
