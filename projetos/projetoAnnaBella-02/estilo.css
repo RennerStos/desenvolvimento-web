@@ -37,3 +37,7 @@ a {
     text-align: center;
     padding: 10px;
 }
+
+.img-campanha {
+    border: 10px solid rgb(85, 83, 83);
+}
