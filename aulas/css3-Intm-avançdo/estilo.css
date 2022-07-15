@@ -163,3 +163,45 @@ ul a:hover {
                         */
 
 /* BARRA DE NAVEGACAO COM ABAS */
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    width: 720px;
+}
+
+ul li {
+    border: 1px solid red;
+    float: left;
+    background-image: url(imagens/aba-direita.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
+li a {
+    display: block;
+    padding: 0px 2em;
+    line-height: 3em;
+    text-decoration: none;
+    background-image: url(imagens/aba-esquerda.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+    color: white;
+}
+
+ul a:hover {
+    color: #894a1f;
+}
+
+ul #atual {
+    background-image: url(imagens/aba-direita-atual.png);
+}
+
+ul #atual a {
+    background-image: url(imagens/aba-esquerda-atual.png);
+}
