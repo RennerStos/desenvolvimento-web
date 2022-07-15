@@ -1,0 +1,110 @@
+@charset "UTF-8";
+
+
+/* SELETORES 
+
+
+* {
+    
+}
+
+h1 {
+    color: green;
+}
+
+
+.verde {
+    color: green;
+}
+
+p.verde {
+    color: green;
+}
+
+
+#cabecalho {
+    border: 1px solid blue;
+}
+
+li > a {
+    color: red;
+    text-decoration: none;
+}
+*/
+
+
+/* HERANÇA E ESPECIFICIDADE 
+
+    Seletores iguais, exceção important
+
+#pagina p {
+    color: red important;
+}
+
+#pagina p {
+    color: blue;
+}
+*/
+
+
+/* Se um seletor for mais especifico que o outro 
+ a regra mais especifica será aplicada (terá precedencia sobre regras mais gerais)
+
+
+ * {  
+    color: red;
+}
+h2 { '3'
+    color: blue;
+}
+
+h2.verde { '2'
+    color: green;
+}
+
+h2#amarelo { '1'
+    color: yellow;
+}   
+*/
+
+/* BARRA DE NAVEGAÇÃO VERTICAL 
+
+
+ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+li {
+    padding: 5px 20px;
+    background: url(imagens/seta.png) no-repeat left center;
+}
+*/
+
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+ul a {
+    color: black;
+    display: block;
+    width: 200px;
+    height: 40px;
+    text-indent: 40px;
+    line-height: 40px;
+    text-decoration: none;
+    background-color: #f7b600;
+    background-image: url(imagens/menu.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+
+
+a:hover {
+    background-position: right bottom;
+    color: #fff;
+    background-color: #f99200;
+}
+*/
