@@ -286,7 +286,7 @@ img.imgnoticia {
 }
 */
 
-/*                     TABELAS*/
+/*                     TABELAS
 
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
@@ -298,5 +298,67 @@ table {
 }
 
 th, td {
-    border: 1px solid red;
+    
+    padding: 7px;
 }
+
+th {
+    text-transform: uppercase;
+    border-top: 1px solid #999;
+    border-bottom: 1px solid #111;
+    text-align: left;
+    font-size: 0.9em;
+    letter-spacing: 0.1em;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(228, 228, 228);
+}
+
+tr:hover {
+    background-color: #c3e6e5;
+}
+.num {
+    text-align: right;
+}
+*/
+
+/*             ESTILIZANDO FORMULARIOS */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+fieldset {
+    padding: 1em;
+    border: 1px solid #ccc;
+    background-color: #f8f8f8;
+    margin-bottom: 15px;
+}
+
+legend {
+    font-weight: bold;
+}
+
+label {
+    display: block;
+    cursor: pointer;
+}
+
+input[type="text"] {
+    width: 200px;
+}
+
+textarea {
+    height: 180px;
+    width: 360px;
+}
+
+input.radio, input.checkbox, input.submit {
+    width: auto;
+}
+
+.radio {
+    margin-right: 10px;
+}
+
