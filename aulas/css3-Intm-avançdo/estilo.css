@@ -323,7 +323,7 @@ tr:hover {
 }
 */
 
-/*             ESTILIZANDO FORMULARIOS */
+/*             ESTILIZANDO FORMULARIOS 
 
 body {
     font-family: Arial, Helvetica, sans-serif;
@@ -360,5 +360,85 @@ input.radio, input.checkbox, input.submit {
 
 .radio {
     margin-right: 10px;
+}
+*/
+
+/*        ESTILIZANDO FORMULÁRIOS PARTE 2 
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #643d87 url(imagens/fundo.jpg) no-repeat top;
+}
+
+#container {
+    width: 400px;
+    height: 300px;
+    background-color: rgba(255, 255, 255, 0.304);
+    border-radius: 10px;
+    margin: 0px auto;
+    margin-top: 120px;
+    text-align: center;
+    
+}
+#form {
+    padding: 10px;
+}
+
+input {
+    height: 33px;
+    width: 70%;
+    font-size: 15px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    padding-left: 37px;
+    border: none;
+    background-repeat: no-repeat;
+    background-position: 5px ;
+}
+
+input.email {
+    background-image: url(imagens/icone-usuario.png);
+
+    
+}
+
+input.senha {
+    background-image: url(imagens/icone-cadeado.png);
+
+}
+
+input.logar {
+    color: #fff;
+    background-color: #f79300;
+    border: 2px solid #db7d00;
+    padding: 5px;
+    background-image: linear-gradient(to bottom, #faa600, #f68a00);
+}
+
+*/
+
+/*       ARREDONDAMENTO COM IMAGENNS */
+
+.caixa {
+    
+    width: 400px;
+    background: #dedede url(imagens/fundo-arredondamento.png) repeat-y;
+}
+
+.caixa h2 {
+    padding: 10px 20px 0px 20px;
+    background: url(imagens/topo2.png) no-repeat left top;
+}
+
+.caixa p {
+    padding: 0px 20px;
+    margin-bottom: 0px;
+}
+
+
+.caixa .ultimo {
+    background: url(imagens/baixo2.png) no-repeat left bottom;
+    padding-bottom: 20px;
+    height: 20px;
 }
 
