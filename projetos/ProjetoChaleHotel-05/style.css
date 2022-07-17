@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: white url(imagens/bg.png);
+    margin: 15px;
+}
+
+div#container {
+    background: #ede9cc url(imagens/bg-container.png) top center repeat-y;
+    margin: 0px auto;
+    min-width: 740px;
+    max-width: 1180px;
+}
+
+div#topo {
+    position: relative;
+    background: #dbcd87;
+    height: 15.4em;
+    min-height: 250px;
+    
+}
+
+div#logo {
+    position: absolute;
+    width: 100%;
+    height: 250px;
+    top: 0px;
+    left: 0px;
+    background: url(imagens/topo-imagem-principal.png) no-repeat;
+    z-index: 1;
+}
+
+div#logo > h1 a {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    z-index: 3;
+    background: url(imagens/logo.png) no-repeat;
+    height: 66px;
+    width: 151px;
+    text-indent: -9000px;
+}
+
+div#menu {
+    position: absolute;
+    background: url(imagens/topo-imagem-lateral.png) no-repeat;
+    width: 450px;
+    height: 250px;
+    top: 0px;
+    right: 0px;
+    z-index: 2;
+}
+
+div#conteudo {
+    margin-left: 90px;
+    margin-right: 15px;
+    padding-top: 15px;
+}
+div#locais {
+    border-bottom: 1px solid #b5ab56;
+    border-top: 1px solid #b5ab56;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 0.7em;
+    color: #8b8448;
+}
+
+div#locais .locais {
+    float: left;
+    line-height: 2.1em;
+}
+
+a {
+    text-decoration: none;
+}
+
+a.reserva {
+    text-transform: uppercase;
+    background-color: #a29750;
+    color: #fff5b0;
+    padding: 5px 10px;
+    float: right;
+}
+
+#menunav {
+    margin-top: 15px;
+}
